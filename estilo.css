@@ -1,0 +1,142 @@
+/*
+*
+* @author Douglas Rafael
+* @version 0.1
+*/
+
+/* ============================================ Layout ============================================ */
+
+html, body, .capa {
+	height: 100%;
+}
+
+body {
+	border: 1px solid none;
+	background: url(imagens/background-principal.jpg);
+	background-attachment: fixed;
+	font-family: 'Staatliches', cursive;
+}
+
+.img-logo {
+	background: url(imagens/logo-gow.png) no-repeat;
+	height: 40px;
+	width: 180px;
+	display: block;
+	border: 1px red none;
+	background-size: contain; /*Tamanho img de fundo| 'contain' define o mesmo tamando do height e width daqui*/
+	color: transparent; /*Faz sumir o nome Spotify*/
+}
+
+nav.navbar-transparent {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6); /*Definir opacidade*/
+	border: none;
+}
+
+.nav-item a {
+	color: white !important;
+	font-size: 24px;
+}
+
+.nav-item a:hover {
+    color: red !important;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    margin: 12px;
+    text-align: center;
+}
+
+.dropdown-menu a:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.divisor {
+	width: 1px;
+	height: 20px;
+	background: white;
+	margin: 12px 10px;
+	
+}
+
+.capa {
+	border: 1px solid none;
+	display: table;
+	width: 100%;
+}
+
+#conteudo-01 {
+	background: white;
+}
+
+#conteudo-02 {
+	margin-top: 150px;
+	color: white;
+}
+
+#conteudo-03 {
+	background-color: black;
+	
+	margin-top: 150px;
+	color: white;
+}
+
+.rotacionar {
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	transform: rotate(20deg); /*Rotacinar as imgs dos iphones*/
+	padding-left: 60px;
+	width: 520px;
+}
+
+div .card{ 
+	margin-top: 50px;
+	margin-left: 50px;
+	color: white;
+	background-color: black;
+	opacity: 0.9;
+	border: white solid 1px;
+	position: fixed;
+}
+
+div .card h5{ 
+	color: red;
+	font-size: 28px;
+}
+
+.row-kratos {
+	width: 580px;
+	height: 1000px;
+	border: 1px solid none;
+	margin: -150px;
+}
+
+/* ============================================ Tipografia ============================================ */
+
+#conteudo-01 h1{
+	font-size: 80px;
+}
+
+#conteudo-02 h1{
+	font-size: 80px;
+	background-color: black;
+	padding-left: 5px;
+	padding-right: 48px;
+}
+
+#conteudo-03 h1{
+	font-size: 60px;
+	margin-top: 20px;
+}
+
+#conteudo-03 p{
+	font-size: 20px;
+	margin-top: 20px;
+	word-spacing: 5px;
+}
+
+p {
+	font-size: 20px;
+}
